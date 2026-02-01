@@ -1,0 +1,116 @@
+/* General Styling */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Profile Page Styling */
+  .profile-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #000; /* Black text */
+  }
+  
+  /* Profile Container */
+  .profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Profile Left - Image */
+  .profile-left {
+    flex: 0 0 auto;
+  }
+  
+  .profile-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #007bff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Profile Right - Details */
+  .profile-right {
+    flex: 1;
+  }
+  
+  .profile-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .profile-details p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  /* Edit Button */
+  .edit-button {
+    background-color: #ff4500; /* Reddish-orange */
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #e63900;
+    transform: scale(1.05);
+  }
+  
+  /* Adoption Section */
+  .adoption-section {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 250px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .adoption-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .adoption-text {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .browse-button {
+    background-color: #28a745; /* Green */
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .browse-button:hover {
+    background-color: #1e7e34;
+    transform: scale(1.05);
+  }
+  

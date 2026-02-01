@@ -1,0 +1,115 @@
+/* General Page Styles */
+.page {
+    background-color: white;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container Styles */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    color: #333;
+}
+
+/* Title Styles */
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+/* SubTitle Styles */
+.subTitle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Profile Section Styles */
+.profileSection {
+    margin-bottom: 30px;
+}
+
+.profileCard {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Profile Image Styles */
+.profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #ddd;
+}
+
+/* Button Styles */
+.editButton,
+.browseButton {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.editButton {
+    background-color: #28a745;
+}
+
+.browseButton {
+    background-color: #007bff;
+}
+
+.editButton:hover {
+    background-color: #218838;
+    box-shadow: 0 6px 12px rgba(40, 167, 69, 0.4);
+}
+
+.browseButton:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 123, 255, 0.4);
+}
+
+/* Adoption Section */
+.adoptionSection {
+    margin-bottom: 30px;
+}
+
+.requestList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.requestCard {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Loading Text */
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loadingText {
+    font-size: 1.5rem;
+    color: #555;
+}
